@@ -1,5 +1,5 @@
 class Paper{
-    constructor(x, y,width,height,angle) {
+    constructor(x, y,width,height) {
       var options = {
         'density':0.3,
         'friction': 1.5,
@@ -19,9 +19,8 @@ class Paper{
   
       push();
       translate(pos.x, pos.y);
-      
- 
-      pop();
+    
+     pop();
     };
   };
 

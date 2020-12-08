@@ -18,7 +18,8 @@ function setup() {
 
 	//Create the Bodies Here.
 box1=new Dustbin(500,650)
-paper=new Paper(200,300,10,20)
+paper1=new Paper(200,300,10,20)
+ground=new Ground(700,650.30,30)
 	Engine.run(engine);
   
 }
@@ -30,7 +31,7 @@ function draw() {
   
   drawSprites();
  box1.display()
- paper.display()
+ paper1.display()
 }
 
 
